@@ -1,0 +1,38 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.table-toolbar {
+  border-radius: 12px;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.75rem;
+  background: var(--surface-card);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  animation: slideDown 0.25s ease;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.p-datatable-tbody > tr:hover {
+  background-color: rgba(100, 116, 139, 0.08);
+  transition: background-color 0.15s ease;
+}
+
+.p-checkbox-box:hover {
+  transform: scale(1.05);
+  transition: transform 0.1s ease;
+}
+.p-datatable-tbody > tr:hover {
+  background-color: rgba(100, 116, 139, 0.08);
+  transition: background-color 0.15s ease;
+}
+
+.p-checkbox-box:hover {
+  transform: scale(1.05);
+  transition: transform 0.1s ease;
+}
