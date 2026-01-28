@@ -67,9 +67,9 @@ npm run dev
 - No data is prefetched from other pages
 - Selection persists when navigating between pages
 - Custom selection uses a count-based strategy without storing other page rows
-- 
-This ensures compliance with the assignment rules.
+  
 ---
+
 ## Project Structure (Simplified)
 ```bash
 src/
@@ -84,11 +84,15 @@ src/
   types/
     artwork.ts
 ```
+
 ---
+
 ## Notes
 
 Some fields from the API may be null, so the UI displays N/A where appropriate.
 The application fetches only the current page of data and does not cache or prefetch future pages.
+
+---
 
 ## Author
 
